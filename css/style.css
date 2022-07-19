@@ -984,6 +984,10 @@ header {
   min-height: 333px;
   max-height: auto;
   margin:0 auto;
+  
+  -webkit-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  transition: 0.5s all ease;
 }
 
 @media(max-width:1081px) {
@@ -1063,9 +1067,9 @@ header {
 
 .cards-contacts__card:hover {
   background-color: #252B42;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  transition: 0.3s all ease;
+  -webkit-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  transition: 0.5s all ease;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
